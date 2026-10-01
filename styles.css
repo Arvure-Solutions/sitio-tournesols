@@ -39,6 +39,10 @@ h3 { font-size: 1.15rem; margin: .6em 0 .3em; }
 .main-nav { display: flex; gap: 14px; margin-left: auto; flex-wrap: wrap; }
 .main-nav a { color: var(--encre); text-decoration: none; font-weight: 600; font-size: .95rem; }
 .main-nav a:hover { color: var(--vert-fonce); }
+.lang { display: flex; gap: 4px; margin-left: 6px; font-size: .82rem; font-weight: 700; }
+.lang a { color: var(--gris); text-decoration: none; padding: 2px 7px; border-radius: 999px; }
+.lang a:hover { background: var(--vert-doux); color: var(--vert-fonce); }
+.lang strong { padding: 2px 7px; background: var(--vert-fonce); color: #fff; border-radius: 999px; }
 
 /* Botones */
 .btn {
